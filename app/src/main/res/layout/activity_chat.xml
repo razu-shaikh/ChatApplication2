@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajus.chatapplication.ChatActivity"
+    android:background="#d9d9d9">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/chat_app_bar_layout">
+    </include>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chat_app_bar_layout"
+        android:layout_above="@+id/linearLayout"
+        android:id="@+id/messages_list_of_users">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:background="#f7f3f3"
+        android:id="@+id/linearLayout"
+        android:weightSum="1">
+
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="Write message"
+            android:textSize="20dp"
+            android:id="@+id/write_messageEdt"
+            android:textColor="#e10505"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_send_message"
+            android:id="@+id/send_messageBtn"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

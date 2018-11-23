@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajus.chatapplication.StatusActivity">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/status_app_bar"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/change_status_editText"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:hint="Change status here......"
+        android:textSize="20dp"
+        android:layout_below="@+id/status_app_bar"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change status"
+        android:id="@+id/change_status_button"
+        android:textSize="20dp"
+        android:textColor="#fdfcfc"
+        android:background="#e62929"
+        android:layout_below="@+id/change_status_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+</RelativeLayout>

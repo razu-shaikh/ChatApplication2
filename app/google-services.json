@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "156458780916",
+    "firebase_url": "https://chatapplication-489f2.firebaseio.com",
+    "project_id": "chatapplication-489f2",
+    "storage_bucket": "chatapplication-489f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156458780916:android:0c07a7dbda8dea5e",
+        "android_client_info": {
+          "package_name": "com.example.rajus.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156458780916-88kgb8u3s0040da5n20bp2hkkb8p8p3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajus.chatapplication",
+            "certificate_hash": "4d92d56856016e3a7158918cb1783130ffcbf37e"
+          }
+        },
+        {
+          "client_id": "156458780916-u993hb1jhob60ips9bcrn55pao94btl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOSMINv5eOQCXpZW5k7FPJdShuMHMvons"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156458780916-u993hb1jhob60ips9bcrn55pao94btl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

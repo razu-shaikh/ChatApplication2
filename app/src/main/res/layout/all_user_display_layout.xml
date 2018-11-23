@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/user_profile_image"
+            android:src="@drawable/default_profile"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:layout_width="200dp"
+                   android:layout_height="wrap_content"
+                   android:text="User name"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:id="@+id/Users_userName"
+                   />
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:visibility="invisible"
+                   android:id="@+id/online_status"
+                   android:src="@drawable/online"
+                   android:layout_marginTop="5dp"/>
+
+           </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User status"
+                android:textSize="18sp"
+                android:id="@+id/Users_status"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
